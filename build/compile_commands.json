@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/dianxiap/mprpc/src/rpcprovider.cc",
+  "file": "/home/dianxiap/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/dianxiap/mprpc/src/mprpcconfig.cc",
+  "file": "/home/dianxiap/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/dianxiap/mprpc/src/mprpcapplication.cc",
+  "file": "/home/dianxiap/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/example/callee",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/userservice.cc.o -c /home/dianxiap/mprpc/example/callee/userservice.cc",
+  "file": "/home/dianxiap/mprpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/example/callee",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/dianxiap/mprpc/example/user.pb.cc",
+  "file": "/home/dianxiap/mprpc/example/user.pb.cc"
+}
+]
