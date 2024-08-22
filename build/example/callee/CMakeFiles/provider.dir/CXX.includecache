@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../example/user.pb.h
+../example/friend.pb.h
 limits
 -
 string
@@ -42,12 +42,44 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+-
+iostream
+-
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
+
+../src/include/mprpcchannel.h
+google/protobuf/service.h
+-
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -73,22 +105,28 @@ muduo/net/TcpConnection.h
 -
 unordered_map
 -
+logger.h
+../src/include/logger.h
 
-/home/dianxiap/mprpc/example/callee/userservice.cc
+/home/dianxiap/mprpc/example/callee/friendservice.cc
 iostream
 -
 string
 -
-user.pb.h
-/home/dianxiap/mprpc/example/callee/user.pb.h
+friend.pb.h
+/home/dianxiap/mprpc/example/callee/friend.pb.h
 mprpcapplication.h
 /home/dianxiap/mprpc/example/callee/mprpcapplication.h
 rpcprovider.h
 /home/dianxiap/mprpc/example/callee/rpcprovider.h
+vector
+-
+logger.h
+/home/dianxiap/mprpc/example/callee/logger.h
 
-/home/dianxiap/mprpc/example/user.pb.cc
-user.pb.h
-/home/dianxiap/mprpc/example/user.pb.h
+/home/dianxiap/mprpc/example/friend.pb.cc
+friend.pb.h
+/home/dianxiap/mprpc/example/friend.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -110,7 +148,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/dianxiap/mprpc/example/user.pb.h
+/home/dianxiap/mprpc/example/friend.pb.h
 limits
 -
 string

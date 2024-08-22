@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+-
+iostream
+-
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -16,6 +38,12 @@ google/protobuf/service.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -75,6 +103,16 @@ muduo/net/TcpConnection.h
 -
 unordered_map
 -
+logger.h
+../src/include/logger.h
+
+/home/dianxiap/mprpc/src/logger.cc
+logger.h
+/home/dianxiap/mprpc/src/logger.h
+time.h
+-
+iostream
+-
 
 /home/dianxiap/mprpc/src/mprpcapplication.cc
 mprpcapplication.h
@@ -89,6 +127,28 @@ string
 /home/dianxiap/mprpc/src/mprpcchannel.cc
 mprpcchannel.h
 /home/dianxiap/mprpc/src/mprpcchannel.h
+rpcheader.pb.h
+/home/dianxiap/mprpc/src/rpcheader.pb.h
+mprpcapplication.h
+/home/dianxiap/mprpc/src/mprpcapplication.h
+mprpccontroller.h
+/home/dianxiap/mprpc/src/mprpccontroller.h
+google/protobuf/descriptor.h
+-
+string
+-
+sys/types.h
+-
+sys/socket.h
+-
+errno.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+unistd.h
+-
 
 /home/dianxiap/mprpc/src/mprpcconfig.cc
 mprpcconfig.h
@@ -97,6 +157,10 @@ iostream
 -
 string
 -
+
+/home/dianxiap/mprpc/src/mprpccontroller.cc
+mprpccontroller.h
+/home/dianxiap/mprpc/src/mprpccontroller.h
 
 /home/dianxiap/mprpc/src/rpcheader.pb.cc
 rpcheader.pb.h

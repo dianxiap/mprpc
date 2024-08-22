@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dianxiap/mprpc/src/logger.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/logger.cc.o"
   "/home/dianxiap/mprpc/src/mprpcapplication.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
   "/home/dianxiap/mprpc/src/mprpcchannel.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
   "/home/dianxiap/mprpc/src/mprpcconfig.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+  "/home/dianxiap/mprpc/src/mprpccontroller.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
   "/home/dianxiap/mprpc/src/rpcheader.pb.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "/home/dianxiap/mprpc/src/rpcprovider.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
   )

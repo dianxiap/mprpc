@@ -9,6 +9,7 @@
 #include <muduo/net/InetAddress.h>
 #include <muduo/net/TcpConnection.h>
 #include <unordered_map>
+#include "logger.h"
 
 // 框架提供的专门用于发布rpc服务的网络对象类
 class RpcProvider

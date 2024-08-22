@@ -25,13 +25,33 @@
   "file": "/home/dianxiap/mprpc/src/mprpcchannel.cc"
 },
 {
-  "directory": "/home/dianxiap/mprpc/build/example/callee",
-  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/userservice.cc.o -c /home/dianxiap/mprpc/example/callee/userservice.cc",
-  "file": "/home/dianxiap/mprpc/example/callee/userservice.cc"
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/dianxiap/mprpc/src/mprpccontroller.cc",
+  "file": "/home/dianxiap/mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/dianxiap/mprpc/src/logger.cc",
+  "file": "/home/dianxiap/mprpc/src/logger.cc"
 },
 {
   "directory": "/home/dianxiap/mprpc/build/example/callee",
-  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/dianxiap/mprpc/example/user.pb.cc",
-  "file": "/home/dianxiap/mprpc/example/user.pb.cc"
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/dianxiap/mprpc/example/callee/friendservice.cc",
+  "file": "/home/dianxiap/mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/example/callee",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/dianxiap/mprpc/example/friend.pb.cc",
+  "file": "/home/dianxiap/mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/example/caller",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/dianxiap/mprpc/example/caller/callfriendservice.cc",
+  "file": "/home/dianxiap/mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/example/caller",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/dianxiap/mprpc/example/friend.pb.cc",
+  "file": "/home/dianxiap/mprpc/example/friend.pb.cc"
 }
 ]
