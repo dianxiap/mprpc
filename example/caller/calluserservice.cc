@@ -12,5 +12,6 @@ int main(int argc,char** argv)
     fixbug::UserServiceRpc_Stub stub(new MprpcChannel());
     stub.Login();   // RpcChannel->RpcChannel::callMethod 集中来做所有rpc方法调用的参数序列化和网络发送
 
+    std::cout<<"测试"<<std::endl;
     return 0;
 }
