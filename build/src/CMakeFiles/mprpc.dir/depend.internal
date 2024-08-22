@@ -5,11 +5,18 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
  ../src/include/mprpcapplication.h
  ../src/include/mprpcconfig.h
  /home/dianxiap/mprpc/src/mprpcapplication.cc
+src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+ ../src/include/mprpcchannel.h
+ /home/dianxiap/mprpc/src/mprpcchannel.cc
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
  ../src/include/mprpcconfig.h
  /home/dianxiap/mprpc/src/mprpcconfig.cc
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
+ ../src/include/rpcheader.pb.h
+ /home/dianxiap/mprpc/src/rpcheader.pb.cc
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
  ../src/include/mprpcapplication.h
  ../src/include/mprpcconfig.h
+ ../src/include/rpcheader.pb.h
  ../src/include/rpcprovider.h
  /home/dianxiap/mprpc/src/rpcprovider.cc

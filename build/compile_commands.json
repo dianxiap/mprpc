@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/dianxiap/mprpc/build/src",
-  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/dianxiap/mprpc/src/rpcprovider.cc",
-  "file": "/home/dianxiap/mprpc/src/rpcprovider.cc"
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/dianxiap/mprpc/src/mprpcapplication.cc",
+  "file": "/home/dianxiap/mprpc/src/mprpcapplication.cc"
 },
 {
   "directory": "/home/dianxiap/mprpc/build/src",
@@ -11,8 +11,18 @@
 },
 {
   "directory": "/home/dianxiap/mprpc/build/src",
-  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/dianxiap/mprpc/src/mprpcapplication.cc",
-  "file": "/home/dianxiap/mprpc/src/mprpcapplication.cc"
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/dianxiap/mprpc/src/rpcheader.pb.cc",
+  "file": "/home/dianxiap/mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/dianxiap/mprpc/src/rpcprovider.cc",
+  "file": "/home/dianxiap/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/dianxiap/mprpc/src/mprpcchannel.cc",
+  "file": "/home/dianxiap/mprpc/src/mprpcchannel.cc"
 },
 {
   "directory": "/home/dianxiap/mprpc/build/example/callee",
