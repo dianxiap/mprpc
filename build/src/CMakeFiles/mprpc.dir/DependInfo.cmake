@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dianxiap/mprpc/src/mprpccontroller.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
   "/home/dianxiap/mprpc/src/rpcheader.pb.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "/home/dianxiap/mprpc/src/rpcprovider.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+  "/home/dianxiap/mprpc/src/zookeeperutil.cc" "/home/dianxiap/mprpc/build/src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

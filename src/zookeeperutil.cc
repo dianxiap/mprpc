@@ -63,7 +63,7 @@ void ZkClient::Start()
 }
 
 // 在zkserver上根据指定的path创建znode节点
-void ZkClient::Create(const char*path,const char* data,int datalen,int state=0)
+void ZkClient::Create(const char*path,const char* data,int datalen,int state)
 {
     char path_buffer[128];
     int bufferlen=sizeof(path_buffer);

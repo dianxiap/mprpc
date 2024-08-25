@@ -35,6 +35,11 @@
   "file": "/home/dianxiap/mprpc/src/logger.cc"
 },
 {
+  "directory": "/home/dianxiap/mprpc/build/src",
+  "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/dianxiap/mprpc/src/zookeeperutil.cc",
+  "file": "/home/dianxiap/mprpc/src/zookeeperutil.cc"
+},
+{
   "directory": "/home/dianxiap/mprpc/build/example/callee",
   "command": "/usr/bin/c++    -g -I/home/dianxiap/mprpc/src/include -I/home/dianxiap/mprpc/example    -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/dianxiap/mprpc/example/callee/friendservice.cc",
   "file": "/home/dianxiap/mprpc/example/callee/friendservice.cc"

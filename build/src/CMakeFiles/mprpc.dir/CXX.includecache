@@ -106,6 +106,14 @@ unordered_map
 logger.h
 ../src/include/logger.h
 
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
+-
+
 /home/dianxiap/mprpc/src/logger.cc
 logger.h
 /home/dianxiap/mprpc/src/logger.h
@@ -133,6 +141,8 @@ mprpcapplication.h
 /home/dianxiap/mprpc/src/mprpcapplication.h
 mprpccontroller.h
 /home/dianxiap/mprpc/src/mprpccontroller.h
+zookeeperutil.h
+/home/dianxiap/mprpc/src/zookeeperutil.h
 google/protobuf/descriptor.h
 -
 string
@@ -193,4 +203,18 @@ mprpcapplication.h
 /home/dianxiap/mprpc/src/mprpcapplication.h
 rpcheader.pb.h
 /home/dianxiap/mprpc/src/rpcheader.pb.h
+logger.h
+/home/dianxiap/mprpc/src/logger.h
+zookeeperutil.h
+/home/dianxiap/mprpc/src/zookeeperutil.h
+
+/home/dianxiap/mprpc/src/zookeeperutil.cc
+zookeeperutil.h
+/home/dianxiap/mprpc/src/zookeeperutil.h
+mprpcapplication.h
+/home/dianxiap/mprpc/src/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
 
