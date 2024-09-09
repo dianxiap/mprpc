@@ -8,7 +8,7 @@ int main(int argc, char **argv)
     MprpcApplication::Init(argc, argv);
 
     // 演示调用远程发布的rpc方法Login
-    fixbug::FriendServiceRpc_Stub stub(new MprpcChannel());
+    fixbug::FiendServiceRpc_Stub stub(new MprpcChannel());
     // rpc方法的请求参数
     fixbug::GetFriendsListRequest request;
     request.set_userid(1000);

@@ -14,7 +14,7 @@ public:
     {
         std::cout << "doing local service: Login" << std::endl;
         std::cout << "name:" << name << " pwd:" << pwd << std::endl;  
-        return true;
+        return false;
     }
 
     bool Register(uint32_t id, std::string name, std::string pwd)
@@ -45,7 +45,7 @@ public:
         fixbug::ResultCode *code = response->mutable_result();
         code->set_errcode(0);
         code->set_errmsg("");
-        response->set_success(login_result);
+        response->set_sucess(login_result);
 
         // 执行回调操作   执行响应对象数据的序列化和网络发送（都是由框架来完成的）
         done->Run();
@@ -64,7 +64,7 @@ public:
 
         response->mutable_result()->set_errcode(0);
         response->mutable_result()->set_errmsg("");
-        response->set_success(ret);
+        response->set_sucess(ret);
 
         done->Run();
     }

@@ -29,7 +29,7 @@ Logger::Logger()
                 exit(EXIT_FAILURE);
             }
 
-            std::string msg = m_lockQue.Pop();
+            std::string msg = m_lckQue.Pop();
 
             char time_buf[128] = {0};
             sprintf(time_buf, "%d:%d:%d =>[%s] ", 
@@ -57,5 +57,5 @@ void Logger::SetLogLevel(LogLevel level)
 // 写日志， 把日志信息写入lockqueue缓冲区当中
 void Logger::Log(std::string msg)
 {
-    m_lockQue.Push(msg);
+    m_lckQue.Push(msg);
 }
